@@ -23,8 +23,6 @@ public class ClienteDAO {
     private DatabaseFactory banco;
 
     public static final int CLIENTES_TOTAL = 1;
-    public static final int LIVROS_FAVORITOS = 2;
-
 
     public ClienteDAO(Context context) {
         banco = new DatabaseFactory(context);

@@ -16,9 +16,7 @@ public class UsuarioDAO {
     private SQLiteDatabase db;
     private DatabaseFactory banco;
 
-    public static final int LIVROS_TOTAL = 1;
-    public static final int LIVROS_FAVORITOS = 2;
-
+    public static final int CLIENTES_TOTAL = 1;
 
     public UsuarioDAO(Context context) {
         banco = new DatabaseFactory(context);

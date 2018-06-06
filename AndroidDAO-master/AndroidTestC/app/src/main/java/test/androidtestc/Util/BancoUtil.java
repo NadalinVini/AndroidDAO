@@ -1,7 +1,7 @@
 package test.androidtestc.Util;
 
 /**
- * Created by Diego on 13/09/2017.
+ * Created by User on 13/09/2017.
  */
 
 public class BancoUtil {

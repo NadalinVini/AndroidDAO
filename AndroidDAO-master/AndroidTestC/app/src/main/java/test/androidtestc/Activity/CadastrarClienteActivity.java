@@ -29,7 +29,7 @@ public class CadastrarClienteActivity extends Activity {
         setContentView(R.layout.activity_cadastrar_cliente);
 
         editNome = (EditText) findViewById(R.id.editNome);
-        editEstado = (EditText) findViewById(R.id.editNome);
+        editEstado = (EditText) findViewById(R.id.editEstado);
         spinnerCidade = (Spinner) findViewById(R.id.spinnerCidade);
         editCEP = (EditText) findViewById(R.id.editCEP);
         editCPF = (EditText) findViewById(R.id.editCPF);
@@ -43,14 +43,14 @@ public class CadastrarClienteActivity extends Activity {
         cliente.setEstado(editEstado.getText().toString());
         cliente.setCidade(spinnerCidade.getSelectedItem().toString());
         cliente.setCEP(Long.parseLong(editCEP.getText().toString()));
-        cliente.setCEP(Long.parseLong(editCPF.getText().toString()));
+        cliente.setCPF(Long.parseLong(editCPF.getText().toString()));
         cliente.setId_usuario(MainActivity.usuarioLogado.getID());
 
         long resultado = clienteDAO.insereDado(cliente);
 
         if(resultado > 0){
             exibirMensagem("Cadastro realizado com sucesso!");
-            Intent listarClientes = new Intent(CadastrarClienteActivity.this,ListarClientesActivity.class);
+            Intent listarClientes = new Intent(CadastrarClienteActivity.this,MainActivity.class);
             startActivity(listarClientes);
             finish();
         }
