@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">AndroidTestC</string>
+
+<string-array name="Cidades">
+    <item>Curitiba</item>
+    <item>São Paulo</item>
+    <item>Rio de Janeiro</item>
+    <item>Amazonas</item>
+    <item>Acre</item>
+    <item>Santa Catarina</item>
+    <item>Rio Grande do Sul</item>
+    <item>Bahia</item>
+</string-array>
+
+<string-array name="options">
+    <item>Atualizar</item>
+    <item>Remover</item>
+</string-array>
+
+<string name="dialog_message">Tem certeza que deseja remover este cliente do sistema?</string>
+<string name="cancel">Cancelar</string>
+<string name="dialog_title">Remover Cliente.</string>
+</resources>
