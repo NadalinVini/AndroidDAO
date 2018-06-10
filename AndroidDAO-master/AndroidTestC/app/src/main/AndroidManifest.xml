@@ -26,6 +26,8 @@
         <activity android:name=".Activity_Nota.AtualizarNotasActivity"/>
         <activity android:name=".Activity_Nota.ListarNotasActivity"/>
         <activity android:name=".Activity_Nota.CadastrarNotaActivity"/>
+        <activity android:name=".Activity_ProdutoNota.CadastrarProdutoNotaActivity"/>
+        <activity android:name=".Activity_ProdutoNota.ListarProdutoNotasActivity"/>
     </application>
 
 </manifest>

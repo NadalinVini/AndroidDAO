@@ -10,6 +10,8 @@ import android.widget.TextView;
 
 import test.androidtestc.Activity_Nota.CadastrarNotaActivity;
 import test.androidtestc.Activity_Nota.ListarNotasActivity;
+import test.androidtestc.Activity_ProdutoNota.CadastrarProdutoNotaActivity;
+import test.androidtestc.Activity_ProdutoNota.ListarProdutoNotasActivity;
 import test.androidtestc.DAO.Usuario;
 import test.androidtestc.DAO.UsuarioDAO;
 import test.androidtestc.R;
@@ -47,6 +49,12 @@ public class MainActivity extends Activity {
                 break;
             case R.id.btnCadastrarNota:
                 carregarIntent(CadastrarNotaActivity.class);
+                break;
+            case R.id.btnCadastrarCompra:
+                carregarIntent(CadastrarProdutoNotaActivity.class);
+                break;
+            case R.id.btnListarCompras:
+                carregarIntent(ListarProdutoNotasActivity.class);
                 break;
 
         }

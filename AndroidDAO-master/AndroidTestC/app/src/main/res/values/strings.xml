@@ -18,7 +18,15 @@
     <item>Pagar com o corpo</item>
     <item>Pagar com a bunda</item>]
     <item>Dinheiro</item>
+</string-array>
 
+<string-array name="Produtos"    >
+    <item>Placa de video 1080</item>
+    <item>Mulher branca</item>
+    <item>Carrinho de Lixo</item>
+    <item>Urso de pelucia</item>
+    <item>Cachorro de raça</item>
+    <item>Revolver 38</item>
 </string-array>
 <string-array name="options">
     <item>Atualizar</item>

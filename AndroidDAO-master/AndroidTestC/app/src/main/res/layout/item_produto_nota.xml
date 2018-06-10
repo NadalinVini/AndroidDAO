@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textIDProdutoNota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID do ProdutoNoTa: "/>
+
+    <TextView
+        android:id="@+id/textNomeProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome do Produto: "/>
+    <TextView
+        android:id="@+id/textNumeroNota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Numero da Nota: "/>
+    <TextView
+        android:id="@+id/textQuantidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quantidade: "/>
+    <TextView
+        android:id="@+id/textValor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valor: "/>
+
+</LinearLayout>

@@ -47,5 +47,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
+    <Button
+        android:onClick="carregaItemMenu"
+        android:text="Listar Compras Cadastrados"
+        android:id="@+id/btnListarCompras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="carregaItemMenu"
+        android:text="Cadastrar Compra"
+        android:id="@+id/btnCadastrarCompra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
 
 </LinearLayout>

@@ -37,5 +37,5 @@ public class BancoUtil {
     public static final String CLIENTE_NOTA = "_idCliente";
     public static final String TIPO_PAGAMENTO = "Tipo_Pagamento";
 
-    public static final int VERSAO = 4;
+    public static final int VERSAO = 5;
 }
