@@ -4,6 +4,7 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+import test.androidtestc.DAO.ClienteDAO;
 import test.androidtestc.Util.BancoUtil;
 
 /**

@@ -21,11 +21,14 @@ import test.androidtestc.Util.BancoUtil;
 public class ClienteDAO {
     private SQLiteDatabase db;
     private DatabaseFactory banco;
-
     public static final int CLIENTES_TOTAL = 1;
 
     public ClienteDAO(Context context) {
         banco = new DatabaseFactory(context);
+    }
+
+    public ClienteDAO() {
+
     }
 
     public long insereDado(Cliente cliente) {
@@ -86,7 +89,7 @@ public class ClienteDAO {
     public Cursor carregaDados(long id_usuario) {
         Cursor cursor;
         String[] campos = {BancoUtil.ID_CLIENTE, BancoUtil.NOME_CLIENTE, BancoUtil.ESTADO_CLIENTE, BancoUtil.CIDADE_CLIENTE,
-                           BancoUtil.CEP_CLIENTE, BancoUtil.CPF_CLIENTE};
+                BancoUtil.CEP_CLIENTE, BancoUtil.CPF_CLIENTE};
         db = banco.getReadableDatabase();
 
         String where = BancoUtil.CLIENTE_USUARIO + " = " + id_usuario;
